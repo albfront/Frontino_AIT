@@ -29,3 +29,23 @@ print("tup1[0]: ", tup1[0])
 
 squares = {1: 1, 3: 9, 5: 25, 7: 49, 9: 81}
 for i in squares: print(squares[i])
+
+for i in range(1,10):
+    if i%2==0:
+     print(i)
+else:
+  print("loop is over")
+
+
+number = 23
+running = True
+while running:
+  guess = int(input("Enter an integer:"))
+  if guess == number:
+    print("Indovinato")
+    running = False
+  elif guess<number:
+    print("No, è più alto")
+  else:
+    print("No, è più basso")
+    
